@@ -14,7 +14,9 @@ df= pd.DataFrame(data)
 new_row_loc= {'Name':'GF','Age':30, 'City':'APAC'}
 df.loc[len(df.index)] = new_row_loc
 # Adding new row for data V3
-# new_row_loc= {'Name':['V3'],'Age':[99], 'City':['NAMER']}
+new_row_loc= {'Name':'SeniorGF','Age':99, 'City':'NAMER'}
+df.loc[len(df.index)] = new_row_loc     
+# use new_row_loc named dict to fill up the df
 
 
 # Ensure data dir is at root
